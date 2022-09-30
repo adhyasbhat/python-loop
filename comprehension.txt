@@ -1,0 +1,11 @@
+set comprehension
+syntax: (item for item in iterable)
+
+dictionary comprehension
+synatc {key:value for item in iterable}
+
+
+drawbacks
+no values can be assigned inside a comprehension
+loop control statement cant be used in a comprehension
+elif blocks cant be included in a comprehension
